@@ -1,0 +1,15 @@
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\bin\Debug\netcoreapp3.1\Reactivities.Domain.dll
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\obj\Debug\netcoreapp3.1\Reactivities.Persistance.csprojAssemblyReference.cache
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\obj\Debug\netcoreapp3.1\Reactivities.Persistance.AssemblyInfoInputs.cache
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\obj\Debug\netcoreapp3.1\Reactivities.Persistance.AssemblyInfo.cs
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\bin\Debug\netcoreapp3.1\Reactivities.Persistance.deps.json
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\bin\Debug\netcoreapp3.1\Reactivities.Persistance.runtimeconfig.json
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\bin\Debug\netcoreapp3.1\Reactivities.Persistance.runtimeconfig.dev.json
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\bin\Debug\netcoreapp3.1\Reactivities.Persistance.dll
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\bin\Debug\netcoreapp3.1\Reactivities.Persistance.pdb
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\bin\Debug\netcoreapp3.1\Reactivities.Domain.pdb
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\obj\Debug\netcoreapp3.1\Reactivities.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\obj\Debug\netcoreapp3.1\Reactivities.Persistance.csproj.CopyComplete
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\obj\Debug\netcoreapp3.1\Reactivities.Persistance.dll
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\obj\Debug\netcoreapp3.1\Reactivities.Persistance.pdb
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Persistance\obj\Debug\netcoreapp3.1\Reactivities.Persistance.genruntimeconfig.cache
