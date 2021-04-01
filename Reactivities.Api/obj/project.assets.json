@@ -5729,11 +5729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivtsiklauri\\Desktop\\.NET+Angular\\Reactivities\\Reactivities\\Reactivities-Server\\Reactivities.Api.csproj",
+      "projectUniqueName": "C:\\Users\\ivtsiklauri\\Desktop\\.NET+Angular\\Reactivities\\Reactivities\\Reactivities.Api\\Reactivities.Api.csproj",
       "projectName": "Reactivities.Api",
-      "projectPath": "C:\\Users\\ivtsiklauri\\Desktop\\.NET+Angular\\Reactivities\\Reactivities\\Reactivities-Server\\Reactivities.Api.csproj",
+      "projectPath": "C:\\Users\\ivtsiklauri\\Desktop\\.NET+Angular\\Reactivities\\Reactivities\\Reactivities.Api\\Reactivities.Api.csproj",
       "packagesPath": "C:\\Users\\ivtsiklauri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivtsiklauri\\Desktop\\.NET+Angular\\Reactivities\\Reactivities\\Reactivities-Server\\obj\\",
+      "outputPath": "C:\\Users\\ivtsiklauri\\Desktop\\.NET+Angular\\Reactivities\\Reactivities\\Reactivities.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ivtsiklauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
