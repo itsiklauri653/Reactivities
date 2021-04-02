@@ -142,3 +142,13 @@ C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities
 C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities-Server\obj\Debug\net5.0\ref\Reactivities.Api.dll
 C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities-Server\obj\Debug\net5.0\Reactivities.Api.pdb
 C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities-Server\obj\Debug\net5.0\Reactivities.Api.genruntimeconfig.cache
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Api\obj\Debug\net5.0\Reactivities.Api.csprojAssemblyReference.cache
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Api\obj\Debug\net5.0\Reactivities.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Api\obj\Debug\net5.0\Reactivities.Api.AssemblyInfoInputs.cache
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Api\obj\Debug\net5.0\Reactivities.Api.AssemblyInfo.cs
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Api\obj\Debug\net5.0\Reactivities.Api.csproj.CoreCompileInputs.cache
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Api\obj\Debug\net5.0\Reactivities.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Api\obj\Debug\net5.0\Reactivities.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Api\obj\Debug\net5.0\Reactivities.Api.dll
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Api\obj\Debug\net5.0\ref\Reactivities.Api.dll
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Api\obj\Debug\net5.0\Reactivities.Api.pdb

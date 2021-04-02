@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using Reactivities.Application.Activities;
+using Reactivities.Application.Activities.Queries;
 using Reactivities.Application.Core;
 using Reactivities.Persistance;
 using System;

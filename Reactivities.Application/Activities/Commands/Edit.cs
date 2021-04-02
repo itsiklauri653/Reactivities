@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Reactivities.Application.Activities
+namespace Reactivities.Application.Activities.Commands
 {
     public class Edit
     {

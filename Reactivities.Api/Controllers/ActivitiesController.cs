@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Reactivities.Application.Activities;
+using Reactivities.Application.Activities.Queries;
+using Reactivities.Application.Activities.Commands;
 using Reactivities.Domain;
 using System.Collections.Generic;
 using System.Linq;
