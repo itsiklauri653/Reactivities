@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[8.1.1, )"
             },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.5.3, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -67,6 +71,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

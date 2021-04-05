@@ -30,10 +30,10 @@ export default observer(function ActivityForm(){
 
     function handleSubmit(){
         if (!activity.id ){
-            createActivity(activity).then(() => history.push('/activities/' + activity.id));
+            createActivity(activity).then(() => history.push(`/activities/${activity.id}`));
         }
         else{
-            updateActivity(activity).then(() => history.push('/activities/' + activity.id));
+            updateActivity(activity).then(() => history.push(`/activities/${activity.id}`));
         }
     }
 

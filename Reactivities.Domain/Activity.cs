@@ -1,10 +1,13 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Reactivities.Domain
 {
     public class Activity
     {
         public int Id { get; set; }
+
+        [Required]
         public string Title { get; set; }
         public DateTime Date { get; set; }
         public string Description { get; set; }

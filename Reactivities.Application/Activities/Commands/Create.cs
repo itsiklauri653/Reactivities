@@ -1,4 +1,6 @@
-﻿using MediatR;
+﻿using FluentValidation;
+using MediatR;
+using Reactivities.Application.Core;
 using Reactivities.Domain;
 using Reactivities.Persistance;
 using System;
@@ -11,12 +13,24 @@ namespace Reactivities.Application.Activities.Commands
 {
     public class Create
     {
-        public class Command : IRequest
+        public class Command : IRequest<Result<Unit>>
         {
             public Activity Activity { get; set; }
         }
 
-        public class Handler : IRequestHandler<Command>
+        public class CommandValidatior : AbstractValidator<Activity>
+        {
+            public CommandValidatior()
+            {
+                RuleFor(x => x.Title).NotEmpty();
+                RuleFor(x => x.Description).NotEmpty();
+                RuleFor(x => x.Date).NotEmpty();
+                RuleFor(x => x.Category).NotEmpty();
+                RuleFor(x => x.City).NotEmpty();
+                RuleFor(x => x.Venue).NotEmpty();
+            }
+        }
+        public class Handler : IRequestHandler<Command, Result<Unit>>
         {
             private readonly DataContext _context;
 
@@ -24,13 +38,15 @@ namespace Reactivities.Application.Activities.Commands
             {
                 _context = context;
             }
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
             {
                 _context.Activities.Add(request.Activity);
 
-                await _context.SaveChangesAsync();
+                var result = await _context.SaveChangesAsync() > 0;
 
-                return Unit.Value;
+                if (!result) return Result<Unit>.Failure("Failed to create activity");
+
+                return Result<Unit>.Success(Unit.Value);
             }
         }
     }

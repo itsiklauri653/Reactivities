@@ -30,10 +30,10 @@ const requests = {
 
 const Activities = {
     list: () => requests.get<Activity[]>('/Activities'),
-    details: (id: number) => requests.get<Activity>('/Activities/' + id),
+    details: (id: number) => requests.get<Activity>(`/Activities/${id}`),
     create: (activity: Activity) => requests.post<Activity>('/Activities', activity),
-    update: (activity: Activity) => requests.put<Activity>('/Activities/' + activity.id,activity),
-    delete: (id: number) => requests.delete<Activity>('/Activities/' + id)
+    update: (activity: Activity) => requests.put<Activity>(`/Activities/${activity.id}`,activity),
+    delete: (id: number) => requests.delete<Activity>(`/Activities/${id}`)
 }
 
 const agent = {

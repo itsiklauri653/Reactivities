@@ -7,3 +7,12 @@ C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\React
 C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Domain\obj\Debug\netcoreapp3.1\Reactivities.Domain.csproj.CoreCompileInputs.cache
 C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Domain\obj\Debug\netcoreapp3.1\Reactivities.Domain.dll
 C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities-Server\Reactivities.Domain\obj\Debug\netcoreapp3.1\Reactivities.Domain.pdb
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Domain\bin\Debug\netcoreapp3.1\Reactivities.Domain.deps.json
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Domain\bin\Debug\netcoreapp3.1\Reactivities.Domain.dll
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Domain\bin\Debug\netcoreapp3.1\Reactivities.Domain.pdb
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Domain\obj\Debug\netcoreapp3.1\Reactivities.Domain.csprojAssemblyReference.cache
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Domain\obj\Debug\netcoreapp3.1\Reactivities.Domain.AssemblyInfoInputs.cache
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Domain\obj\Debug\netcoreapp3.1\Reactivities.Domain.AssemblyInfo.cs
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Domain\obj\Debug\netcoreapp3.1\Reactivities.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Domain\obj\Debug\netcoreapp3.1\Reactivities.Domain.dll
+C:\Users\ivtsiklauri\Desktop\.NET+Angular\Reactivities\Reactivities\Reactivities.Domain\obj\Debug\netcoreapp3.1\Reactivities.Domain.pdb

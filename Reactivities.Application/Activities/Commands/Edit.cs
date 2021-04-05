@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using MediatR;
+using Reactivities.Application.Core;
 using Reactivities.Domain;
 using Reactivities.Persistance;
 using System;
@@ -12,12 +14,25 @@ namespace Reactivities.Application.Activities.Commands
 {
     public class Edit
     {
-        public class Command : IRequest
+        public class Command : IRequest<Result<Unit>>
         {
             public Activity Activity { get; set; }
         }
 
-        public class Handler : IRequestHandler<Command>
+        public class CommandValidatior : AbstractValidator<Activity>
+        {
+            public CommandValidatior()
+            {
+                RuleFor(x => x.Title).NotEmpty();
+                RuleFor(x => x.Description).NotEmpty();
+                RuleFor(x => x.Date).NotEmpty();
+                RuleFor(x => x.Category).NotEmpty();
+                RuleFor(x => x.City).NotEmpty();
+                RuleFor(x => x.Venue).NotEmpty();
+            }
+        }
+
+        public class Handler : IRequestHandler<Command, Result<Unit>>
         {
             private readonly DataContext _context;
             private readonly IMapper _mapper;
@@ -27,15 +42,19 @@ namespace Reactivities.Application.Activities.Commands
                 _context = context;
                 _mapper = mapper;
             }
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
             {
                 var activity = await _context.Activities.FindAsync(request.Activity.Id);
 
+                if (activity == null) return null;
+
                 _mapper.Map(request.Activity, activity);
 
-                await _context.SaveChangesAsync();
+                var result = await _context.SaveChangesAsync() > 0;
 
-                return Unit.Value;
+                if (!result) return Result<Unit>.Failure("Failed to update the activity");
+
+                return Result<Unit>.Success(Unit.Value);
             }
         }
     }
